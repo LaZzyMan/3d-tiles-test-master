@@ -1,3 +1,4 @@
+document.getElementById('spot-menu').setAttribute('style', currentPostion);
 var myTextArea = document.getElementById("editor");
 
 var json = {"color" : {
@@ -112,7 +113,7 @@ function loadTileset(url) {
                     "description" : "'Building id ${id} has height ${height}.'"
                 }
             });
-            // addStyleUI();
+            // addStyleUI()
             var spotbtn=document.createElement('button');
             spotbtn.setAttribute('class','spot-button');
             var spotlabel=document.createElement('label');
