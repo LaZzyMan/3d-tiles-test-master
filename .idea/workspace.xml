@@ -2,8 +2,1015 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd02a425-5b44-49f2-8767-c19422b574a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/appRefactoring.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_0/batchTable0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_0/gridID_0.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_0/gridID_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_0/gridID_0.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_0/gridID_0_200_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_0/gridID_0_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_0/output/gridID_0.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_0/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_1/batchTable1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_1/gridID_1.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_1/gridID_1.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_1/gridID_1.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_1/gridID_1_314_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_1/gridID_1_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_1/output/gridID_1.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_1/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_10/batchTable10" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_10/gridID_10.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_10/gridID_10.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_10/gridID_10.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_10/gridID_10_204_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_10/gridID_10_259_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_10/gridID_10_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_10/output/gridID_10.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_10/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_11/batchTable11" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_11/gridID_11.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_11/gridID_11.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_11/gridID_11.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_11/gridID_11_1450 Brickell_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_11/gridID_11_150_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_11/gridID_11_345_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_11/gridID_11_93_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_11/gridID_11_95_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_11/gridID_11_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_11/output/gridID_11.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_11/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_12/batchTable12" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_12/gridID_12.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_12/gridID_12.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_12/gridID_12.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_12/gridID_12_2_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_12/gridID_12_94_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_12/gridID_12_96_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_12/gridID_12_97_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_12/gridID_12_Brickell East Tower_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_12/gridID_12_Four Seasons Hotel &amp; Tower_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_12/gridID_12_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_12/output/gridID_12.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_12/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_13/batchTable13" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_13/gridID_13.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_13/gridID_13.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_13/gridID_13.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_13/gridID_13_140_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_13/gridID_13_143_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_13/gridID_13_257_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_13/gridID_13_258_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_13/gridID_13_366_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_13/gridID_13_Point View Condos_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_13/gridID_13_The Brickell Bay Tower_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_13/gridID_13_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_13/output/gridID_13.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_13/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_14/batchTable14" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_14/gridID_14.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_14/gridID_14.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_14/gridID_14.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_14/gridID_14_141_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_14/gridID_14_142_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_14/gridID_14_Bayshore Place_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_14/gridID_14_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_14/output/gridID_14.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_14/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_15/batchTable15" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_15/gridID_15.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_15/gridID_15.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_15/gridID_15.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_15/gridID_15_176_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_15/gridID_15_182_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_15/gridID_15_354_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_15/gridID_15_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_15/output/gridID_15.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_15/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/batchTable16" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/gridID_16.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/gridID_16.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/gridID_16.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/gridID_16_1_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/gridID_16_220_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/gridID_16_246_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/gridID_16_247_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/gridID_16_250_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/gridID_16_263_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/gridID_16_280_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/gridID_16_283_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/gridID_16_332_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/gridID_16_360_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/gridID_16_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/output/gridID_16.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_16/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_17/batchTable17" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_17/gridID_17.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_17/gridID_17.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_17/gridID_17.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_17/gridID_17_273_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_17/gridID_17_307_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_17/gridID_17_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_17/output/gridID_17.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_17/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_18/batchTable18" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_18/gridID_18.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_18/gridID_18.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_18/gridID_18.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_18/gridID_18_324_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_18/gridID_18_329_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_18/gridID_18_357_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_18/gridID_18_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_18/output/gridID_18.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_18/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_19/batchTable19" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_19/gridID_19.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_19/gridID_19.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_19/gridID_19.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_19/gridID_19_151_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_19/gridID_19_170_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_19/gridID_19_43_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_19/gridID_19_49_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_19/gridID_19_One Broadway_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_19/gridID_19_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_19/output/gridID_19.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_19/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_2/batchTable2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_2/gridID_2.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_2/gridID_2.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_2/gridID_2.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_2/gridID_2_156_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_2/gridID_2_157_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_2/gridID_2_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_2/output/gridID_2.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_2/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_20/batchTable20" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_20/gridID_20.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_20/gridID_20.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_20/gridID_20.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_20/gridID_20_152_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_20/gridID_20_166_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_20/gridID_20_183_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_20/gridID_20_23_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_20/gridID_20_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_20/output/gridID_20.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_20/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_21/batchTable21" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_21/gridID_21.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_21/gridID_21.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_21/gridID_21.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_21/gridID_21_1401 Brickell Avenue_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_21/gridID_21_230_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_21/gridID_21_38_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_21/gridID_21_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_21/output/gridID_21.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_21/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/batchTable22" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/gridID_22.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/gridID_22.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/gridID_22.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/gridID_22_148_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/gridID_22_149_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/gridID_22_163_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/gridID_22_164_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/gridID_22_191_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/gridID_22_318_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/gridID_22_330_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/gridID_22_Brickell House_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/gridID_22_Emerald at Brickell_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/gridID_22_The Sail Condominiums_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/gridID_22_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/output/gridID_22.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_22/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_23/batchTable23" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_23/gridID_23.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_23/gridID_23.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_23/gridID_23.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_23/gridID_23_121_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_23/gridID_23_146_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_23/gridID_23_147_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_23/gridID_23_Commodore Bay_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_23/gridID_23_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_23/output/gridID_23.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_23/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_24/batchTable24" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_24/gridID_24.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_24/gridID_24.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_24/gridID_24.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_24/gridID_24_274_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_24/gridID_24_317_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_24/gridID_24_336_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_24/gridID_24_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_24/output/gridID_24.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_24/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_25/batchTable25" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_25/gridID_25.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_25/gridID_25.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_25/gridID_25.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_25/gridID_25_0_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_25/gridID_25_190_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_25/gridID_25_215_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_25/gridID_25_226_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_25/gridID_25_253_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_25/gridID_25_277_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_25/gridID_25_291_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_25/gridID_25_361_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_25/gridID_25_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_25/output/gridID_25.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_25/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_26/batchTable26" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_26/gridID_26.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_26/gridID_26.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_26/gridID_26.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_26/gridID_26_207_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_26/gridID_26_252_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_26/gridID_26_32_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_26/gridID_26_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_26/output/gridID_26.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_26/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_27/batchTable27" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_27/gridID_27.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_27/gridID_27.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_27/gridID_27.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_27/gridID_27_175_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_27/gridID_27_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_27/output/gridID_27.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_27/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_28/batchTable28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_28/gridID_28.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_28/gridID_28.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_28/gridID_28.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_28/gridID_28_167_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_28/gridID_28_180_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_28/gridID_28_306_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_28/gridID_28_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_28/output/gridID_28.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_28/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_29/batchTable29" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_29/gridID_29.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_29/gridID_29.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_29/gridID_29.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_29/gridID_29_199_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_29/gridID_29_212_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_29/gridID_29_235_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_29/gridID_29_254_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_29/gridID_29_301_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_29/gridID_29_326_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_29/gridID_29_343_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_29/gridID_29_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_29/output/gridID_29.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_29/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_3/batchTable3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_3/gridID_3.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_3/gridID_3.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_3/gridID_3.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_3/gridID_3_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_3/gridID_3_158_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_3/gridID_3_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_3/output/gridID_3.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_3/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_30/batchTable30" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_30/gridID_30.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_30/gridID_30.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_30/gridID_30.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_30/gridID_30_1221 Brickell_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_30/gridID_30_126_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_30/gridID_30_127_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_30/gridID_30_128_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_30/gridID_30_129_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_30/gridID_30_130_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_30/gridID_30_Espirito Santo Plaza_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_30/gridID_30_JW Marriott Miami_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_30/gridID_30_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_30/output/gridID_30.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_30/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_31/batchTable31" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_31/gridID_31.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_31/gridID_31.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_31/gridID_31.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_31/gridID_31_122_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_31/gridID_31_131_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_31/gridID_31_132_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_31/gridID_31_133_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_31/gridID_31_Solaris at Brickell Bay_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_31/gridID_31_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_31/output/gridID_31.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_31/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_32/batchTable32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_32/gridID_32.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_32/gridID_32.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_32/gridID_32.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_32/gridID_32_120_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_32/gridID_32_Jade Residences at Brickell Bay_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_32/gridID_32_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_32/output/gridID_32.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_32/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/batchTable33" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/gridID_33.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/gridID_33.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/gridID_33.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/gridID_33_196_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/gridID_33_202_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/gridID_33_205_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/gridID_33_209_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/gridID_33_239_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/gridID_33_248_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/gridID_33_284_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/gridID_33_297_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/gridID_33_302_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/gridID_33_321_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/gridID_33_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/output/gridID_33.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_33/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/batchTable34" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34_197_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34_210_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34_218_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34_227_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34_236_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34_244_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34_276_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34_285_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34_304_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34_312_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34_331_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34_337_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34_365_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/gridID_34_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/output/gridID_34.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_34/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/batchTable35" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/gridID_35.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/gridID_35.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/gridID_35.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/gridID_35_224_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/gridID_35_241_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/gridID_35_249_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/gridID_35_251_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/gridID_35_256_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/gridID_35_267_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/gridID_35_269_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/gridID_35_296_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/gridID_35_298_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/gridID_35_323_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/gridID_35_39_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/gridID_35_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/output/gridID_35.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_35/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_36/batchTable36" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_36/gridID_36.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_36/gridID_36.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_36/gridID_36.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_36/gridID_36_136_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_36/gridID_36_168_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_36/gridID_36_181_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_36/gridID_36_Axis at Brickell Village Tower 2_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_36/gridID_36_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_36/output/gridID_36.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_36/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_37/batchTable37" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_37/gridID_37.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_37/gridID_37.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_37/gridID_37.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_37/gridID_37_137_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_37/gridID_37_177_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_37/gridID_37_234_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_37/gridID_37_255_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_37/gridID_37_293_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_37/gridID_37_Axis at Brickell Village_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_37/gridID_37_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_37/output/gridID_37.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_37/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_38/batchTable38" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_38/gridID_38.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_38/gridID_38.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_38/gridID_38.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_38/gridID_38_155_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_38/gridID_38_Interterra Building_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_38/gridID_38_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_38/output/gridID_38.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_38/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_39/batchTable39" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_39/gridID_39.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_39/gridID_39.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_39/gridID_39.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_39/gridID_39_103_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_39/gridID_39_28_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_39/gridID_39_33_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_39/gridID_39_JW Marriot_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_39/gridID_39_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_39/output/gridID_39.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_39/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_4/batchTable4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_4/gridID_4.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_4/gridID_4.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_4/gridID_4.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_4/gridID_4_144_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_4/gridID_4_225_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_4/gridID_4_268_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_4/gridID_4_The Palace_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_4/gridID_4_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_4/output/gridID_4.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_4/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_40/batchTable40" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_40/gridID_40.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_40/gridID_40.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_40/gridID_40.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_40/gridID_40_101_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_40/gridID_40_102_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_40/gridID_40_104_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_40/gridID_40_125_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_40/gridID_40_Sabadell Financial Center_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_40/gridID_40_The Club at Brickell Bay_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_40/gridID_40_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_40/output/gridID_40.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_40/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_41/batchTable41" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_41/gridID_41.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_41/gridID_41.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_41/gridID_41.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_41/gridID_41_73_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_41/gridID_41_74_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_41/gridID_41_75_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_41/gridID_41_76_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_41/gridID_41_The Mark_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_41/gridID_41_The Yacht Club_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_41/gridID_41_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_41/output/gridID_41.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_41/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/batchTable42" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/gridID_42.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/gridID_42.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/gridID_42.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/gridID_42_198_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/gridID_42_216_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/gridID_42_232_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/gridID_42_261_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/gridID_42_266_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/gridID_42_275_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/gridID_42_287_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/gridID_42_327_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/gridID_42_338_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/gridID_42_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/output/gridID_42.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_42/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/batchTable43" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/gridID_43.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/gridID_43.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/gridID_43.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/gridID_43_184_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/gridID_43_208_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/gridID_43_231_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/gridID_43_238_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/gridID_43_243_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/gridID_43_279_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/gridID_43_282_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/gridID_43_288_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/gridID_43_292_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/gridID_43_311_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/gridID_43_335_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/gridID_43_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/output/gridID_43.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_43/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_44/batchTable44" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_44/gridID_44.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_44/gridID_44.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_44/gridID_44.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_44/gridID_44_172_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_44/gridID_44_222_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_44/gridID_44_344_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_44/gridID_44_348_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_44/gridID_44_351_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_44/gridID_44_352_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_44/gridID_44_362_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_44/gridID_44_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_44/output/gridID_44.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_44/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_45/batchTable45" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_45/gridID_45.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_45/gridID_45.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_45/gridID_45.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_45/gridID_45_186_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_45/gridID_45_219_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_45/gridID_45_270_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_45/gridID_45_271_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_45/gridID_45_272_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_45/gridID_45_320_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_45/gridID_45_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_45/output/gridID_45.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_45/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/batchTable46" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46_111_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46_112_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46_123_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46_124_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46_135_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46_188_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46_213_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46_309_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46_364_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46_Axis at Brickell Village Tower 1_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46_Camden Brickell_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46_Rosa Vito_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/gridID_46_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/output/gridID_46.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_46/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_47/batchTable47" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_47/gridID_47.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_47/gridID_47.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_47/gridID_47.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_47/gridID_47_1050 Brickell Avenue_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_47/gridID_47_134_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_47/gridID_47_187_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_47/gridID_47_286_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_47/gridID_47_290_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_47/gridID_47_53_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_47/gridID_47_55_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_47/gridID_47_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_47/output/gridID_47.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_47/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_48/batchTable48" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_48/gridID_48.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_48/gridID_48.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_48/gridID_48.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_48/gridID_48_1060 Brickell Avenue_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_48/gridID_48_153_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_48/gridID_48_154_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_48/gridID_48_214_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_48/gridID_48_363_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_48/gridID_48_54_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_48/gridID_48_Banco Industrial de Venezuela Tower_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_48/gridID_48_Florida International University Brickell Campus_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_48/gridID_48_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_48/output/gridID_48.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_48/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_49/batchTable49" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_49/gridID_49.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_49/gridID_49.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_49/gridID_49.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_49/gridID_49_113_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_49/gridID_49_114_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_49/gridID_49_171_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_49/gridID_49_999 Brickell_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_49/gridID_49_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_49/output/gridID_49.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_49/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_5/batchTable5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_5/gridID_5.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_5/gridID_5.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_5/gridID_5.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_5/gridID_5_145_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_5/gridID_5_The Costa Bella_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_5/gridID_5_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_5/output/gridID_5.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_5/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_50/batchTable50" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_50/gridID_50.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_50/gridID_50.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_50/gridID_50.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_50/gridID_50_109_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_50/gridID_50_110_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_50/gridID_50_70_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_50/gridID_50_Blue Parrot Grill_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_50/gridID_50_Brickell Bay Office Tower_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_50/gridID_50_Tower 1_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_50/gridID_50_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_50/output/gridID_50.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_50/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/batchTable51" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/gridID_51.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/gridID_51.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/gridID_51.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/gridID_51_16_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/gridID_51_17_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/gridID_51_195_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/gridID_51_19_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/gridID_51_201_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/gridID_51_319_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/gridID_51_31_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/gridID_51_42_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/gridID_51_7_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/gridID_51_9_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/gridID_51_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/output/gridID_51.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_51/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/batchTable52" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_10_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_11_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_12_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_13_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_14_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_159_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_15_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_18_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_229_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_240_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_359_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_3_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_47_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_4_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_5_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_6_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_8_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_Ace Hardware_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/gridID_52_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/output/gridID_52.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_52/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/batchTable53" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53_221_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53_228_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53_24_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53_260_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53_27_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53_295_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53_308_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53_30_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53_34_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53_35_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53_44_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53_46_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/gridID_53_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/output/gridID_53.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_53/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_54/batchTable54" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_54/gridID_54.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_54/gridID_54.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_54/gridID_54.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_54/gridID_54_162_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_54/gridID_54_Publix_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_54/gridID_54_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_54/output/gridID_54.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_54/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_55/batchTable55" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_55/gridID_55.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_55/gridID_55.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_55/gridID_55.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_55/gridID_55_161_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_55/gridID_55_350_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_55/gridID_55_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_55/output/gridID_55.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_55/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_56/batchTable56" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_56/gridID_56.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_56/gridID_56.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_56/gridID_56.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_56/gridID_56_107_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_56/gridID_56_174_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_56/gridID_56_233_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_56/gridID_56_90_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_56/gridID_56_Chicken Kitchen_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_56/gridID_56_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_56/output/gridID_56.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_56/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_57/batchTable57" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_57/gridID_57.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_57/gridID_57.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_57/gridID_57.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_57/gridID_57_165_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_57/gridID_57_310_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_57/gridID_57_48_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_57/gridID_57_800 Brickell Avenue_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_57/gridID_57_87_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_57/gridID_57_91_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_57/gridID_57_92_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_57/gridID_57_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_57/output/gridID_57.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_57/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/batchTable58" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58_60_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58_61_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58_62_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58_77_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58_78_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58_79_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58_80_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58_81_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58_One Brickell Square_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58_Plaza on Brickell Tower II_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58_Plaza on Brickell Tower I_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58_Plaza on Brickell_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58_Tru Tru cakes_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/gridID_58_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/output/gridID_58.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_58/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_59/batchTable59" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_59/gridID_59.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_59/gridID_59.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_59/gridID_59.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_59/gridID_59_67_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_59/gridID_59_68_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_59/gridID_59_69_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_59/gridID_59_71_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_59/gridID_59_The Four Ambassadors_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_59/gridID_59_Tower 2_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_59/gridID_59_Tower 3_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_59/gridID_59_Tower 4_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_59/gridID_59_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_59/output/gridID_59.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_59/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_6/batchTable6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_6/gridID_6.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_6/gridID_6.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_6/gridID_6.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_6/gridID_6_100_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_6/gridID_6_192_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_6/gridID_6_98_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_6/gridID_6_99_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_6/gridID_6_The Costa Bella_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_6/gridID_6_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_6/output/gridID_6.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_6/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_60/batchTable60" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_60/gridID_60.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_60/gridID_60.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_60/gridID_60.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_60/gridID_60_139_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_60/gridID_60_217_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_60/gridID_60_223_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_60/gridID_60_265_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_60/gridID_60_51_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_60/gridID_60_McDonald's_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_60/gridID_60_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_60/output/gridID_60.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_60/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_61/batchTable61" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_61/gridID_61.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_61/gridID_61.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_61/gridID_61.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_61/gridID_61_237_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_61/gridID_61_29_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_61/gridID_61_315_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_61/gridID_61_334_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_61/gridID_61_346_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_61/gridID_61_37_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_61/gridID_61_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_61/output/gridID_61.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_61/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/batchTable62" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/gridID_62.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/gridID_62.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/gridID_62.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/gridID_62_194_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/gridID_62_206_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/gridID_62_245_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/gridID_62_300_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/gridID_62_303_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/gridID_62_333_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/gridID_62_339_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/gridID_62_353_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/gridID_62_41_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/gridID_62_50_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/gridID_62_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/output/gridID_62.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_62/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_63/batchTable63" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_63/gridID_63.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_63/gridID_63.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_63/gridID_63.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_63/gridID_63_138_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_63/gridID_63_189_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_63/gridID_63_193_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_63/gridID_63_356_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_63/gridID_63_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_63/output/gridID_63.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_63/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_64/batchTable64" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_64/gridID_64.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_64/gridID_64.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_64/gridID_64.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_64/gridID_64_105_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_64/gridID_64_106_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_64/gridID_64_45_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_64/gridID_64_Burger King_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_64/gridID_64_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_64/output/gridID_64.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_64/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_65/batchTable65" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_65/gridID_65.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_65/gridID_65.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_65/gridID_65.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_65/gridID_65_108_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_65/gridID_65_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_65/output/gridID_65.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_65/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_66/batchTable66" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_66/gridID_66.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_66/gridID_66.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_66/gridID_66.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_66/gridID_66_325_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_66/gridID_66_349_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_66/gridID_66_88_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_66/gridID_66_89_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_66/gridID_66_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_66/output/gridID_66.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_66/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_67/batchTable67" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_67/gridID_67.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_67/gridID_67.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_67/gridID_67.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_67/gridID_67_63_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_67/gridID_67_65_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_67/gridID_67_701 Brickell Avenue_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_67/gridID_67_777 Brickell Avenue_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_67/gridID_67_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_67/output/gridID_67.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_67/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_68/batchTable68" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_68/gridID_68.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_68/gridID_68.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_68/gridID_68.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_68/gridID_68_64_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_68/gridID_68_66_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_68/gridID_68_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_68/output/gridID_68.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_68/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_69/batchTable69" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_69/gridID_69.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_69/gridID_69.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_69/gridID_69.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_69/gridID_69_160_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_69/gridID_69_313_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_69/gridID_69_316_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_69/gridID_69_340_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_69/gridID_69_Publix_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_69/gridID_69_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_69/output/gridID_69.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_69/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_7/batchTable7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_70/batchTable70" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_70/gridID_70.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_70/gridID_70.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_70/gridID_70.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_70/gridID_70_25_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_70/gridID_70_26_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_70/gridID_70_328_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_70/gridID_70_36_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_70/gridID_70_40_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_70/gridID_70_52_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_70/gridID_70_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_70/output/gridID_70.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_70/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_71/batchTable71" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_71/gridID_71.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_71/gridID_71.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_71/gridID_71.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_71/gridID_71_211_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_71/gridID_71_341_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_71/gridID_71_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_71/output/gridID_71.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_71/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_72/batchTable72" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_72/gridID_72.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_72/gridID_72.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_72/gridID_72.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_72/gridID_72_178_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_72/gridID_72_264_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_72/gridID_72_322_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_72/gridID_72_347_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_72/gridID_72_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_72/output/gridID_72.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_72/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_73/batchTable73" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_73/gridID_73.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_73/gridID_73.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_73/gridID_73.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_73/gridID_73_185_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_73/gridID_73_203_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_73/gridID_73_242_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_73/gridID_73_262_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_73/gridID_73_278_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_73/gridID_73_281_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_73/gridID_73_289_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_73/gridID_73_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_73/output/gridID_73.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_73/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_74/batchTable74" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_74/gridID_74.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_74/gridID_74.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_74/gridID_74.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_74/gridID_74_115_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_74/gridID_74_116_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_74/gridID_74_169_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_74/gridID_74_500 Brickell West Tower_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_74/gridID_74_500 Brickell_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_74/gridID_74_85_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_74/gridID_74_86_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_74/gridID_74_Brickell World Plaza_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_74/gridID_74_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_74/output/gridID_74.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_74/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_75/batchTable75" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_75/gridID_75.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_75/gridID_75.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_75/gridID_75.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_75/gridID_75_500 Brickell East Tower_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_75/gridID_75_84_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_75/gridID_75_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_75/output/gridID_75.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_75/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_76/batchTable76" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_76/gridID_76.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_76/gridID_76.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_76/gridID_76.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_76/gridID_76_358_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_76/gridID_76_57_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_76/gridID_76_72_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_76/gridID_76_82_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_76/gridID_76_First Presbyterian Church of Miami_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_76/gridID_76_Icon Brickell South Tower_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_76/gridID_76_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_76/output/gridID_76.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_76/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_77/batchTable77" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_77/gridID_77.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_77/gridID_77.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_77/gridID_77.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_77/gridID_77_179_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_77/gridID_77_355_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_77/gridID_77_56_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_77/gridID_77_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_77/output/gridID_77.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_77/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_78/batchTable78" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_78/gridID_78.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_78/gridID_78.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_78/gridID_78.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_78/gridID_78_294_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_78/gridID_78_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_78/output/gridID_78.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_78/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_79/batchTable79" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_79/gridID_79.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_79/gridID_79.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_79/gridID_79.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_79/gridID_79_173_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_79/gridID_79_305_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_79/gridID_79_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_79/output/gridID_79.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_79/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_8/batchTable8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_8/gridID_8.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_8/gridID_8.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_8/gridID_8.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_8/gridID_8_342_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_8/gridID_8_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_8/output/gridID_8.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_8/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_80/batchTable80" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_81/batchTable81" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_81/gridID_81.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_81/gridID_81.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_81/gridID_81.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_81/gridID_81_117_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_81/gridID_81_118_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_81/gridID_81_119_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_81/gridID_81_20_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_81/gridID_81_21_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_81/gridID_81_Brickell on the River North Tower_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_81/gridID_81_Brickell on the River South Tower_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_81/gridID_81_Brickell on the River_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_81/gridID_81_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_81/output/gridID_81.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_81/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_82/batchTable82" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_82/gridID_82.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_82/gridID_82.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_82/gridID_82.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_82/gridID_82_22_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_82/gridID_82_299_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_82/gridID_82_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_82/output/gridID_82.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_82/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_83/batchTable83" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_83/gridID_83.b3dm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_83/gridID_83.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_83/gridID_83.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_83/gridID_83_58_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_83/gridID_83_59_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_83/gridID_83_83_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_83/gridID_83_Icon Brickell North Tower_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_83/gridID_83_Icon Brickell_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_83/gridID_83_Viceroy Tower_0.dae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_83/gridID_83_bid.gltf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_83/output/gridID_83.glb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_83/tileset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gridID_9/batchTable9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/tileset.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
@@ -23,35 +1030,25 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="656">
+              <caret line="97" column="54" lean-forward="false" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
               <folding>
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app.js">
+      <file leaf-file-name="appRefactoring.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/appRefactoring.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="73" lean-forward="false" selection-start-line="0" selection-start-column="73" selection-end-line="0" selection-end-column="73" />
+            <state relative-caret-position="597">
+              <caret line="331" column="23" lean-forward="false" selection-start-line="331" selection-start-column="23" selection-end-line="331" selection-end-column="23" />
               <folding>
-                <marker date="1506066193855" expanded="true" signature="9192:9221" ph="..." />
-                <marker date="1506066193855" expanded="true" signature="9247:9266" ph="..." />
-                <marker date="1506066193855" expanded="true" signature="9611:9626" ph="..." />
+                <marker date="1506328222091" expanded="true" signature="4571:4600" ph="..." />
+                <marker date="1506328222091" expanded="true" signature="4626:4645" ph="..." />
+                <marker date="1506328222091" expanded="true" signature="5029:5044" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -73,9 +1070,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config.ts" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/Config.js" />
+        <option value="$PROJECT_DIR$/js/codemirror-5.19.0/appRefactoring.js" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/appRefactoring.js" />
       </list>
     </option>
   </component>
@@ -106,6 +1105,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,26 +1117,24 @@
             <path>
               <item name="3d-tiles-test-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="3d-tiles-test-master" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3d-tiles-test-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3d-tiles-test-master" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\apache-tomcat-9.0.0.M26\webapps\3d-tiles-test-master\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -195,33 +1194,43 @@
       <workItem from="1505819539064" duration="54000" />
       <workItem from="1505897252676" duration="2189000" />
       <workItem from="1505919133444" duration="1955000" />
-      <workItem from="1506051555272" duration="3726000" />
+      <workItem from="1506051555272" duration="3779000" />
+      <workItem from="1506164209755" duration="631000" />
+      <workItem from="1506251430827" duration="539000" />
+      <workItem from="1506255639475" duration="9303000" />
     </task>
+    <task id="LOCAL-00001" summary="add config file">
+      <created>1506066303365</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1506066303365</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20802000" />
+    <option name="totallyTimeSpent" value="31328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.171875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -236,6 +1245,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add config file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add config file" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="4" />
@@ -249,168 +1262,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7935">
-          <caret line="345" column="0" lean-forward="false" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
-          <folding>
-            <marker date="1506066193855" expanded="true" signature="9192:9221" ph="..." />
-            <marker date="1506066193855" expanded="true" signature="9247:9266" ph="..." />
-            <marker date="1506066193855" expanded="true" signature="9611:9626" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2645">
-          <caret line="115" column="57" lean-forward="true" selection-start-line="115" selection-start-column="57" selection-end-line="115" selection-end-column="57" />
-          <folding>
-            <marker date="1506066193855" expanded="true" signature="9192:9221" ph="..." />
-            <marker date="1506066193855" expanded="true" signature="9247:9266" ph="..." />
-            <marker date="1506066193855" expanded="true" signature="9611:9626" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1771">
-          <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2645">
-          <caret line="115" column="33" lean-forward="false" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
-          <folding>
-            <marker date="1506066193855" expanded="true" signature="9192:9221" ph="..." />
-            <marker date="1506066193855" expanded="true" signature="9247:9266" ph="..." />
-            <marker date="1506066193855" expanded="true" signature="9611:9626" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1771">
-          <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2645">
-          <caret line="115" column="33" lean-forward="false" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
-          <folding>
-            <marker date="1506066193855" expanded="true" signature="9192:9221" ph="..." />
-            <marker date="1506066193855" expanded="true" signature="9247:9266" ph="..." />
-            <marker date="1506066193855" expanded="true" signature="9611:9626" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8326">
-          <caret line="362" column="1" lean-forward="false" selection-start-line="362" selection-start-column="1" selection-end-line="362" selection-end-column="1" />
-          <folding>
-            <marker date="1506066193855" expanded="true" signature="9192:9221" ph="..." />
-            <marker date="1506066193855" expanded="true" signature="9247:9266" ph="..." />
-            <marker date="1506066193855" expanded="true" signature="9611:9626" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8326">
-          <caret line="362" column="1" lean-forward="true" selection-start-line="362" selection-start-column="1" selection-end-line="362" selection-end-column="1" />
-          <folding>
-            <marker date="1506066193855" expanded="true" signature="9192:9221" ph="..." />
-            <marker date="1506066193855" expanded="true" signature="9247:9266" ph="..." />
-            <marker date="1506066193855" expanded="true" signature="9611:9626" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/codemirror-5.19.0/mode/javascript/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4347">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="736">
           <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -420,9 +1275,69 @@
         <state relative-caret-position="0">
           <caret line="0" column="73" lean-forward="false" selection-start-line="0" selection-start-column="73" selection-end-line="0" selection-end-column="73" />
           <folding>
-            <marker date="1506066193855" expanded="true" signature="9192:9221" ph="..." />
-            <marker date="1506066193855" expanded="true" signature="9247:9266" ph="..." />
-            <marker date="1506066193855" expanded="true" signature="9611:9626" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9103:9132" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9158:9177" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9525:9540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cesium/Cesium.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="73" lean-forward="false" selection-start-line="0" selection-start-column="73" selection-end-line="0" selection-end-column="73" />
+          <folding>
+            <marker date="1506326377754" expanded="true" signature="9103:9132" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9158:9177" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9525:9540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cesium/Cesium.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="73" lean-forward="false" selection-start-line="0" selection-start-column="73" selection-end-line="0" selection-end-column="73" />
+          <folding>
+            <marker date="1506326377754" expanded="true" signature="9103:9132" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9158:9177" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9525:9540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -431,7 +1346,196 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7935">
+          <caret line="345" column="0" lean-forward="false" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
+          <folding>
+            <marker date="1506326377754" expanded="true" signature="9103:9132" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9158:9177" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9525:9540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2645">
+          <caret line="115" column="57" lean-forward="true" selection-start-line="115" selection-start-column="57" selection-end-line="115" selection-end-column="57" />
+          <folding>
+            <marker date="1506326377754" expanded="true" signature="9103:9132" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9158:9177" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9525:9540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1771">
+          <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2645">
+          <caret line="115" column="33" lean-forward="false" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
+          <folding>
+            <marker date="1506326377754" expanded="true" signature="9103:9132" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9158:9177" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9525:9540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1771">
+          <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2645">
+          <caret line="115" column="33" lean-forward="false" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
+          <folding>
+            <marker date="1506326377754" expanded="true" signature="9103:9132" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9158:9177" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9525:9540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8326">
+          <caret line="362" column="1" lean-forward="false" selection-start-line="362" selection-start-column="1" selection-end-line="362" selection-end-column="1" />
+          <folding>
+            <marker date="1506326377754" expanded="true" signature="9103:9132" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9158:9177" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9525:9540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8326">
+          <caret line="362" column="1" lean-forward="true" selection-start-line="362" selection-start-column="1" selection-end-line="362" selection-end-column="1" />
+          <folding>
+            <marker date="1506326377754" expanded="true" signature="9103:9132" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9158:9177" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9525:9540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/codemirror-5.19.0/mode/javascript/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4347">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json" />
+    <entry file="file://$PROJECT_DIR$/config.ts" />
+    <entry file="file://$PROJECT_DIR$/Config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="56" lean-forward="true" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cesium/Cesium.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="409" column="41" lean-forward="true" selection-start-line="409" selection-start-column="41" selection-end-line="409" selection-end-column="41" />
+          <folding>
+            <marker date="1506326377754" expanded="true" signature="9103:9132" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9158:9177" ph="..." />
+            <marker date="1506326377754" expanded="true" signature="9525:9540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="97" column="54" lean-forward="false" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/appRefactoring.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="331" column="23" lean-forward="false" selection-start-line="331" selection-start-column="23" selection-end-line="331" selection-end-column="23" />
+          <folding>
+            <marker date="1506328222091" expanded="true" signature="4571:4600" ph="..." />
+            <marker date="1506328222091" expanded="true" signature="4626:4645" ph="..." />
+            <marker date="1506328222091" expanded="true" signature="5029:5044" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

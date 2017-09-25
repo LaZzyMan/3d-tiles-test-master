@@ -66,12 +66,9 @@ var scene = viewer.scene;
 scene.fog.enabled = false;
 scene.debugShowFramesPerSecond = true;
 
-var dataurl = "./data/"
 var tileset;
-
 function loadTileset(url) {
     reset();
-
     tileset = scene.primitives.add(new Cesium.Cesium3DTileset({
         url : url,
         debugShowStatistics : true,
@@ -149,9 +146,8 @@ function loadTileset(url) {
 
 
 var canvas = viewer.canvas;
-canvas.setAttribute('tabindex', '0'); // needed to put focus on the canvas
+canvas.setAttribute('tabindex', '0');
 canvas.onclick = function() {
-    // To get key events
     canvas.focus();
 };
 
@@ -163,7 +159,6 @@ var flags = {
     leftDown : false,
     middleDown : false,
     rightDown : false,
-
     annotate : false
 };
 
@@ -261,7 +256,7 @@ handler.setInputAction(function(movement) {
 
         var title = feature.getProperty('name');
         var tid = feature.getProperty('TARGET_FID');
-        infobox.name = (title!=' ')?(title):(tid);
+        infobox.name = (title !== ' ')?(title):(tid);
         infobox.description = {
             getValue : function() {
                 return '<table style="text-align:left">'+str+'</table>';
@@ -429,5 +424,7 @@ function reset() {
 
     // annotations.removeAll();
 }
+
+var dataurl = "./data/Miami";
 loadTileset(dataurl);
 ///////////////////////////////////////////////////////////////////////////////
