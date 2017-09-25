@@ -15,12 +15,25 @@
     viewer.homeButton.viewModel.command.beforeExecute.addEventListener(function(commandInfo){
         //Zoom to custom extent
         viewer.camera.flyTo({
-            destination : new Cesium.Cartesian3(978703.4032039205, -5664709.285048889, 2754627.305272117),
-            orientation : {
-                direction : new Cesium.Cartesian3(0.33506436388093397, 0.7178758873584659, 0.6102344487214404),
-                up : new Cesium.Cartesian3(0.27649053726026684, -0.6940744040291643, 0.6646906833084766)
+            destination: new Cesium.Cartesian3(978703.4032039205, -5664709.285048889, 2754627.305272117),
+            orientation: {
+                heading: Cesium.Math.toRadians(0.0), // 方向
+                pitch: Cesium.Math.toRadians(-90.0),// 倾斜角度
+                roll: 0
+            },
+            //飞行过程控制照相机镜头朝下
+
+            complete: function () {
+                // 到达位置后执行的回调函数
+                viewer.camera.setView({
+                    destination: new Cesium.Cartesian3(978703.4032039205, -5664709.285048889, 2754627.305272117),
+                    orientation: {
+                        direction: new Cesium.Cartesian3(0.33506436388093397, 0.7178758873584659, 0.6102344487214404),
+                        up: new Cesium.Cartesian3(0.27649053726026684, -0.6940744040291643, 0.6646906833084766),
+                    }
+                })
             }
-        });
+        })
         commandInfo.cancel = true;
     });
     //设置场景效果
@@ -300,22 +313,8 @@
             viewer.camera.setView({
                 destination : new Cesium.Cartesian3(978703.4032039205, -5664709.285048889, 2754627.305272117),
                 orientation : {
-                    heading : Cesium.Math.toRadians(0.0), // 方向
-                    pitch : Cesium.Math.toRadians(-90.0),// 倾斜角度
-                    roll : 0
-                },
-                //飞行过程控制照相机镜头朝下
-
-                complete: function () {
-                    // 到达位置后执行的回调函数
-                    viewer.camera.setView({
-                    destination : new Cesium.Cartesian3(978703.4032039205, -5664709.285048889, 2754627.305272117),
-                        orientation : {
-                        direction : new Cesium.Cartesian3(0.33506436388093397, 0.7178758873584659, 0.6102344487214404),
-                            up : new Cesium.Cartesian3(0.27649053726026684, -0.6940744040291643, 0.6646906833084766),
-
-                    }
-                })
+                    direction: new Cesium.Cartesian3(0.33506436388093397, 0.7178758873584659, 0.6102344487214404),
+                    up: new Cesium.Cartesian3(0.27649053726026684, -0.6940744040291643, 0.6646906833084766)
                 }
                 //飞行结束恢复镜头方向
             });
