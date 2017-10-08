@@ -50,16 +50,51 @@ btn.setAttribute('data-target','#myModal');
 btn.setAttribute('class','cesium-button cesium-toolbar-button');
 document.getElementsByClassName('cesium-viewer-toolbar')[0].appendChild(btn);
 
-viewer.homeButton.viewModel.command.beforeExecute.addEventListener(function(commandInfo){
-    //Zoom to custom extent
-    viewer.camera.flyTo({
-        destination : new Cesium.Cartesian3(978703.4032039205, -5664709.285048889, 2754627.305272117),
+var btn1 = document.createElement('button');
+btn1.setAttribute('type','button');
+btn1.setAttribute('title','homeview');
+btn1.setAttribute('class','cesium-button cesium-toolbar-button');
+document.getElementsByClassName('cesium-viewer-toolbar')[0].appendChild(btn1);
+btn1.setAttribute('onclick','homeview()');
+
+function homeview(){
+    viewer.camera.setView({
         orientation : {
-            direction : new Cesium.Cartesian3(0.33506436388093397, 0.7178758873584659, 0.6102344487214404),
-            up : new Cesium.Cartesian3(0.27649053726026684, -0.6940744040291643, 0.6646906833084766)
+            //direction : new Cesium.Cartesian3(0.33506436388093397, 0.7178758873584659, 0.6102344487214404),
+            //up : new Cesium.Cartesian3(0.27649053726026684, -0.6940744040291643, 0.6646906833084766),
+            heading :Cesium.Math.toRadians(0),
+            pitch :Cesium.Math.toRadians(-90.0),
+            roll : 0
         }
     });
-    //Tell the home button not to do anything.
+    viewer.scene.camera.flyHome(viewer.duration);
+}
+
+viewer.homeButton.viewModel.command.beforeExecute.addEventListener(function(commandInfo){
+    //Zoom to custom extent
+    if(viewer.camera.position!=new Cesium.Cartesian3(978702.4032039205, -5664708.285048889, 2754623.305272117)){
+        viewer.camera.flyTo({
+            destination: new Cesium.Cartesian3(978702.4032039205, -5664708.285048889, 2754623.305272117),
+            orientation: {
+                // direction : new Cesium.Cartesian3(0.33506436388093397, 0.7178758873584659, 0.6102344487214404),
+                //up : new Cesium.Cartesian3(0.27649053726026684, -0.6940744040291643, 0.6646906833084766),
+                heading: Cesium.Math.toRadians(0.0), // 方向
+                pitch: Cesium.Math.toRadians(-90.0),// 倾斜角度
+                roll: 0
+            },
+            pitchAdjustHeight: 2000,
+             complete: function () {
+                 // 到达位置后执行的回调函数
+                     viewer.camera.moveUp();
+                     var center = new Cesium.Cartesian3(978702.4032039205, -5664708.285048889, 2754623.305272117);
+                     var heading = Cesium.Math.toRadians(0);
+                     var pitch = Cesium.Math.toRadians(-20.0);
+                     var range = 50.0;
+                     viewer.camera.lookAt(center, new Cesium.HeadingPitchRange(heading, pitch, range));
+             }
+        });
+    }
+//Tell the home button not to do anything.
     commandInfo.cancel = true;
 });
 var scene = viewer.scene;
