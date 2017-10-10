@@ -263,7 +263,11 @@
     document.getElementById('spot-menu').setAttribute('style', currentPostion);
     //加载tileset
     function loadTileset(url) {
-        var tileset = scene.primitives.add(new Cesium.Cesium3DTileset({
+        var tileset;
+        if (Cesium.defined(tileset)) {
+            scene.primitives.remove(tileset);
+        }
+        tileset = scene.primitives.add(new Cesium.Cesium3DTileset({
             url : url,
             debugShowStatistics : true,
             maximumNumberOfLoadedTiles : 3
@@ -331,7 +335,6 @@
     }
     //根据模型目录列表加载tileset
     var dataurls = ["./data/Miami", "./data/Scene"];
-    for (var dataurl in dataurls){
-        loadTileset(dataurl);
-    }
+    loadTileset(dataurls[0])
+    loadTileset(dataurls[1])
 }());

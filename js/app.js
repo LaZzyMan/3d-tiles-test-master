@@ -66,9 +66,12 @@ var scene = viewer.scene;
 scene.fog.enabled = false;
 scene.debugShowFramesPerSecond = true;
 
-var tileset;
+
 function loadTileset(url) {
-    reset();
+    var tileset;
+    if (Cesium.defined(tileset)) {
+        scene.primitives.remove(tileset);
+    }
     tileset = scene.primitives.add(new Cesium.Cesium3DTileset({
         url : url,
         debugShowStatistics : true,
@@ -405,26 +408,7 @@ function getStyleFunction(name) {
     };
 }
 
-function reset() {
-    if (Cesium.defined(tileset)) {
-        scene.primitives.remove(tileset);
-    }
-
-    // // Remove style UI for the previous tileset
-    // var buttonsLength = styleElements.length;
-    // for (var i = 0; i < buttonsLength; ++i) {
-    // var element = styleElements[i];
-    // element.parentNode.removeChild(element);
-    // }
-    // styleElements = [];
-    // numberofColors = 6;
-
-    // current.feature = undefined;
-    // current.originalColor = new Cesium.Color();
-
-    // annotations.removeAll();
-}
-
-var dataurl = "./data/Miami";
-loadTileset(dataurl);
+var dataurl = ["./data/Scene", "./data/Miami"];
+loadTileset(dataurl[0]);
+loadTileset(dataurl[1]);
 ///////////////////////////////////////////////////////////////////////////////
