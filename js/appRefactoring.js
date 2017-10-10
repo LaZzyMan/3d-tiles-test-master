@@ -259,6 +259,7 @@
     btn.setAttribute('class','cesium-button cesium-toolbar-button');
     document.getElementsByClassName('cesium-viewer-toolbar')[0].appendChild(btn);
 
+<<<<<<< Updated upstream
     var btn1 = document.createElement('button');
     btn1.setAttribute('type','button');
     btn1.setAttribute('title','homeview');
@@ -268,6 +269,15 @@
     //添加回到全球视角按钮
 
     function homeview(){
+=======
+    //全球视角按钮
+    var homebtn = document.createElement('button');
+    homebtn.setAttribute('type','button');
+    homebtn.setAttribute('title','HomeView');
+    homebtn.setAttribute('class','cesium-button cesium-toolbar-button');
+    document.getElementsByClassName('cesium-viewer-toolbar')[0].appendChild(homebtn);
+    homebtn.addEventListener('click', function(){
+>>>>>>> Stashed changes
         viewer.camera.setView({
             orientation : {
                 //direction : new Cesium.Cartesian3(0.33506436388093397, 0.7178758873584659, 0.6102344487214404),
@@ -280,7 +290,11 @@
         //改变照相机镜头方向
         viewer.scene.camera.flyHome(viewer.duration);
         //飞回全球视角
+<<<<<<< Updated upstream
     }
+=======
+    });
+>>>>>>> Stashed changes
 
 
     //设置tileset按钮框位置
@@ -374,6 +388,6 @@
     }
     //根据模型目录列表加载tileset
     var dataurls = ["./data/Miami", "./data/Scene"];
-    loadTileset(dataurls[0])
-    loadTileset(dataurls[1])
+    loadTileset(dataurls[0]);
+    loadTileset(dataurls[1]);
 }());
