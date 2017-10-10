@@ -258,48 +258,28 @@
     btn.setAttribute('data-target','#myModal');
     btn.setAttribute('class','cesium-button cesium-toolbar-button');
     document.getElementsByClassName('cesium-viewer-toolbar')[0].appendChild(btn);
-
-<<<<<<< Updated upstream
-    var btn1 = document.createElement('button');
-    btn1.setAttribute('type','button');
-    btn1.setAttribute('title','homeview');
-    btn1.setAttribute('class','cesium-button cesium-toolbar-button');
-    document.getElementsByClassName('cesium-viewer-toolbar')[0].appendChild(btn1);
-    btn1.setAttribute('onclick','homeview()');
-    //添加回到全球视角按钮
-
-    function homeview(){
-=======
     //全球视角按钮
     var homebtn = document.createElement('button');
     homebtn.setAttribute('type','button');
     homebtn.setAttribute('title','HomeView');
     homebtn.setAttribute('class','cesium-button cesium-toolbar-button');
     document.getElementsByClassName('cesium-viewer-toolbar')[0].appendChild(homebtn);
-    homebtn.addEventListener('click', function(){
->>>>>>> Stashed changes
+    homebtn.addEventListener('click', function() {
         viewer.camera.setView({
-            orientation : {
+            orientation: {
                 //direction : new Cesium.Cartesian3(0.33506436388093397, 0.7178758873584659, 0.6102344487214404),
                 //up : new Cesium.Cartesian3(0.27649053726026684, -0.6940744040291643, 0.6646906833084766),
-                heading :Cesium.Math.toRadians(0),
-                pitch :Cesium.Math.toRadians(-90.0),
-                roll : 0
+                heading: Cesium.Math.toRadians(0),
+                pitch: Cesium.Math.toRadians(-90.0),
+                roll: 0
             }
         });
         //改变照相机镜头方向
         viewer.scene.camera.flyHome(viewer.duration);
         //飞回全球视角
-<<<<<<< Updated upstream
-    }
-=======
     });
->>>>>>> Stashed changes
-
-
     //设置tileset按钮框位置
     document.getElementById('spot-menu').setAttribute('style', currentPostion);
-    //加载tileset
     function loadTileset(url) {
         var tileset;
         if (Cesium.defined(tileset)) {
@@ -327,13 +307,13 @@
                 complete: function () {
                     // 到达位置后执行的回调函数
                     viewer.camera.setView({
-                    destination : new Cesium.Cartesian3(978703.4032039205, -5664709.285048889, 2754627.305272117),
+                        destination : new Cesium.Cartesian3(978703.4032039205, -5664709.285048889, 2754627.305272117),
                         orientation : {
-                        direction : new Cesium.Cartesian3(0.33506436388093397, 0.7178758873584659, 0.6102344487214404),
+                            direction : new Cesium.Cartesian3(0.33506436388093397, 0.7178758873584659, 0.6102344487214404),
                             up : new Cesium.Cartesian3(0.27649053726026684, -0.6940744040291643, 0.6646906833084766),
 
-                    }
-                })
+                        }
+                    })
                 }
                 //飞行结束恢复镜头方向
             });
